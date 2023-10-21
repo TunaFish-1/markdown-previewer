@@ -64,9 +64,7 @@ export default class App extends React.Component{
   }
 
   render(){
-    marked.setOptions({
-      breaks: true
-    })
+    marked.setOptions({breaks: true})
     return (
       <div className="App">
         <div className="container text-center">
